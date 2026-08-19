@@ -1,1 +1,60 @@
 style.css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #222;
+}
+
+main {
+    width: 84%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.hero p {
+    max-width: 650px;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+}
