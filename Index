@@ -1,1 +1,87 @@
 index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Devon O'Neill | Agriculture & Land Stewardship</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Devon O'Neill</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#research">Research</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <h1>Devon O'Neill</h1>
+
+            <h2>Agriculture. Economics. Land Stewardship.</h2>
+
+            <p>
+                Raised on a ranch in Montana and driven by a long-term interest
+                in agriculture, rural communities, and stewardship of the land.
+            </p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+
+            <p>
+                I studied economics and statistics at Gonzaga University and
+                work at the intersection of agriculture, land management,
+                finance, and applied economic research.
+            </p>
+        </section>
+
+        <section id="work">
+            <h2>Work</h2>
+
+            <h3>Farm & Ranch Management</h3>
+
+            <p>
+                Agricultural asset management, producer relationships,
+                land-use analysis, leases, crop production, conservation
+                programs, and long-term stewardship.
+            </p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+
+            <h3>Rural Economic Resilience</h3>
+
+            <p>
+                Applied economic research examining farm viability,
+                migration, agritourism, and economic resilience in rural
+                communities.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>
+                Interested in agriculture, ranching, rural development,
+                land stewardship, and new ideas.
+            </p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
